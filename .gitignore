@@ -18,4 +18,5 @@ yarn-error.log
 /.vscode
 /.composer
 /docker/mysql/data
+/docker/mysql/datadir
 /var
