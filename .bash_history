@@ -27,3 +27,8 @@ php artisan vendor:publish --provider="Mcamara\LaravelLocalization\LaravelLocali
 composer require arrilot/laravel-widgets
 php artisan make:widget RecentNews
 exit
+ls
+cd routes/
+ls
+cd ..
+exit
