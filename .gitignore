@@ -20,3 +20,5 @@ yarn-error.log
 /docker/mysql/data
 /docker/mysql/datadir
 /var
+.bash_history
+
