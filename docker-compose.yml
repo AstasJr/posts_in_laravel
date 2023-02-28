@@ -24,7 +24,7 @@ services:
     volumes:
       - ./:/var/www
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
-      - ./storage/:/mnt/host/d/projects/learn/webinar2/storage/
+      - ./storage/:${PROJECT_PATH}/storage/
   db:
       image: mysql
       restart: unless-stopped
